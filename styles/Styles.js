@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#2d3e50",
     alignItems: "center",
+    padding:20,
   },
   menuItems: {
     margin: 2,
@@ -58,7 +59,7 @@ const styles = StyleSheet.create({
     color: "#fff",
     padding: 5,
     fontSize: 22,
-    fontFamily: "RobotoBold",
+    fontWeight: 'bold',
   },
   homeImage: {
     width: 400,
@@ -112,9 +113,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     textAlign: "center",
+    padding: 20,
   },
   guidelinesImg: {
-    width: 350,
+    width: 400,
     height: 350,
   },
   guidelinesTitle: {
